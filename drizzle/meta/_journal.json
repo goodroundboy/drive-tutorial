@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "singlestore",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "1",
+      "when": 1740014210308,
+      "tag": "0000_sloppy_glorian",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "1",
+      "when": 1740019652747,
+      "tag": "0001_aberrant_harrier",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "1",
+      "when": 1740025329853,
+      "tag": "0002_amusing_guardsmen",
+      "breakpoints": true
+    }
+  ]
+}

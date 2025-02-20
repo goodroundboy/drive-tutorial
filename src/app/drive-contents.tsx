@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { mockFiles, mockFolders } from "../lib/mock-data";
 import { Upload, ChevronRight } from "lucide-react";
 import { Button } from "~/components/ui/button";
 import { FileRow, FolderRow } from "./file-row";
@@ -50,7 +49,7 @@ export default function DriveContents(props: {
             >
               My Drive
             </Button>
-            {breadcrumbs.map((folder, index) => (
+            {breadcrumbs.map((folder) => (
               <div key={folder.id} className="flex items-center">
                 <ChevronRight className="mx-2 text-gray-500" size={16} />
                 <Button
